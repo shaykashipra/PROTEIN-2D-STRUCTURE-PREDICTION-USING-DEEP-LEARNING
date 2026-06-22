@@ -59,7 +59,7 @@ Model summary:
 - Output layer with 3 classes
 - Trainable parameters: 189,955
 
-![Model Architecture](protein_assignment_outputs/model_architecture.png)
+![Model Architecture](model_architecture.png)
 
 ## Training
 
@@ -73,7 +73,7 @@ The model was trained using:
 
 Class-weighted loss was used because the first model mostly predicted Helix. Weighting helped the model pay more attention to Sheet and Coil.
 
-![Training Curves](protein_assignment_outputs/training_curves.png)
+![Training Curves](training_curves.png)
 
 ## Evaluation Results
 
@@ -95,7 +95,7 @@ Per-class result:
 | Sheet (E) | 0.33 | 0.78 | 0.46 | 67 |
 | Coil (C) | 0.44 | 0.03 | 0.06 | 120 |
 
-![Confusion Matrix](protein_assignment_outputs/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ## Weight Update GIFs
 
@@ -109,7 +109,7 @@ The notebook generates GIFs showing how tracked layer weights changed during tra
 | `weight_updates_fc1.gif` | First fully connected layer |
 | `weight_updates_fc2.gif` | Output fully connected layer |
 
-![Weight Updates - All Layers](protein_assignment_outputs/weight_updates_all_layers.gif)
+![Weight Updates - All Layers](weight_updates_all_layers.gif)
 
 ## Discussion
 
